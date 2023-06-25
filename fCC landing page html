@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="https://images.unsplash.com/photo-1503525148566-ef5c2b9c93bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" id="header-img" alt="Frustrated Face" class="header-img" width="50px"/>
+      
+      <nav id="nav-bar">
+        <a href="#Distracting-sites" class="nav-link">Distracting sites</a>
+        <a href="#Calming-music" class="nav-link">Calming music</a>
+        <a href="#Walking-away" class="nav-link">Walking away</a>
+      </nav>
+    </header>
+
+    <br></br>
+    <section>
+      <p>Have you been studying or working for a long time? Do you need a break? Here's a few options!</p>
+    <section class="main-section" id="Distracting-sites">Distracting Sites
+      <ul>
+        <li><a target="_blank" href="https://sliding.toys/">Sliding Toys</a></li>
+        <li><a target="_blank" href="https://drawing.garden/">Drawing Garden</a></li>
+        <li><a target="_blank" href="https://maze.toys/">Maze.Toys</a></li>
+        <li><a target="_blank" href="https://findtheinvisiblecow.com/">Find the Invisible Cow</a></li>
+        <li><a target="_blank" href="https://theuselessweb.com/">Find your own distracting site</a></li>
+      </ul>
+    </section>
+    <br></br>
+
+<section class="main-section" id="Calming-music">Calming music
+  <ul>
+    <li>YouTube playlists</li>
+      <ul>
+        <li><a target="_blank" href="https://www.youtube.com/live/CdSOoYrbqUM?feature=share">LoFi HipHop Beats to Study to</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/live/3RAN_ez2LKI?feature=share">Calming Natural sounds</a></li>
+        <li><a target="_blank" href="https://youtu.be/clDaJWka5dQ">Something Different</a></li>
+      </ul>
+
+    <li>Spotify playlists</li>
+      <ul>
+        <li><a target="_blank" href="https://open.spotify.com/playlist/1HVP7E8RkpieiGSxvATJbU?si=4865e4d720ee4f8d">Top Pop LoFi remixes<a/></li>
+        <li><a target="_blank" href="https://open.spotify.com/playlist/1y5Xvya1yqXOMpF6ErmExv?si=b935e8bf94bc462d">Superior Study Playlist</a></li>
+        <li><a target="_blank" href="https://open.spotify.com/playlist/471N195f5jAVs086lzYglw?si=8fde7416fb0e42ae">Study Music but Hype</a></li>
+      </ul>
+</section>
+<br></br>
+
+<section class="main-section" id="Walking-away">Walking away
+  <p>Sometimes it helps to just walk away. Using the Pomodoro method can be a useful way to prevent burn out. Play this video and walk away from your computer during the 10 minute break. The bell will sound when the break is over!</p>
+
+    <iframe id="video"  src="https://www.youtube.com/embed/lZnBNuEK6_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+<br></br>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+     <input type="text" placeholder="Suggestions?" >
+      <input id="email" type="email" placeholder="name123@mail.com" name="email" required>
+      
+      <input id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">
+    </form>
+  </body>
+</html>
